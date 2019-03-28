@@ -1,0 +1,21 @@
+{
+  "printWidth": 100,
+  "parser": "typescript",
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": ["*.json", ".prettierrc"],
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": ["*.d.ts"],
+      "options": {
+        "semi": true
+      }
+    }
+  ]
+}
